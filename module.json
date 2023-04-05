@@ -127,6 +127,6 @@
 	],
 	"url": "https://github.com/boss-loot/FoundryVTT-Items",
 	"bugs": "https://github.com/boss-loot/FoundryVTT-Items",
-	"manifest": "https://boss-loot-free-pack.s3.eu-central-1.amazonaws.com/module.json",
-	"download": "https://boss-loot-free-pack.s3.eu-central-1.amazonaws.com/boss-loot-magic-items-free.zip"
+	"manifest": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/module.json",
+	"download": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/releases/download/Stable/boss-loot-magic-items-free.zip"
 }
