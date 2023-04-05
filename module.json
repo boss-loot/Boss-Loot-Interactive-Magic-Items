@@ -1,0 +1,132 @@
+{
+	"id": "boss-loot-magic-items-free",
+	"title": "Boss Loot Interactive Magic Items, Free Pack",
+	"description": "A module of unique, fully automated and powerful items for D&D 5e, perfect for enhancing any adventurer's capabilities",
+	"version": "0.0.8",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10.291",
+		"maximum": "10"
+	},
+	"packs": [
+		{
+			"name": "boss-loot-items-free",
+			"label": "Boss Loot Magic Items, Free Pack",
+			"path": "packs/items.db",
+			"type": "Item",
+			"system": "dnd5e",
+			"private": true,
+			"flags": {}
+		},
+		{
+			"name": "boss-loot-journal-free",
+			"label": "Boss Loot Journal",
+			"path": "packs/journal-entries.db",
+			"system": "dnd5e",
+			"type": "JournalEntry",
+			"private": true,
+			"flags": {}
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+				"compatibility": {
+					"verified": "2.1.2"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "dae",
+				"type": "module",
+				"manifest": "https://gitlab.com/tposney/dae/raw/v10/package/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "times-up",
+				"type": "module",
+				"manifest": "https://gitlab.com/tposney/times-up/raw/v10/package/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "dfreds-convenient-effects",
+				"type": "module",
+				"manifest": "https://github.com/DFreds/dfreds-convenient-effects/releases/latest/download/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "effectmacro",
+				"type": "module",
+				"manifest": "https://github.com/krbz999/effectmacro/releases/latest/download/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "JB2A_DnD5e",
+				"type": "module",
+				"manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "midi-qol",
+				"type": "module",
+				"manifest": "https://gitlab.com/tposney/midi-qol/raw/v10/package/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "sequencer",
+				"type": "module",
+				"manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "tokenmagic",
+				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "warpgate",
+				"type": "module",
+				"manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+				"compatibility": {}
+			},
+			{
+				"id": "socketlib",
+				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json",
+				"compatibility": {}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "quantiq",
+			"url": "https://www.patreon.com/BossLoot/creators",
+			"discord": "quantiq#1657"
+		},
+		{
+			"name": "razvani",
+			"url": "https://www.patreon.com/BossLoot/creators",
+			"discord": "razvani#8335"
+		},
+		{
+			"name": "avatarart",
+			"url": "https://www.patreon.com/BossLoot/creators",
+			"discord": "Mates Laurentiu#6443"
+		}
+	],
+	"url": "https://github.com/boss-loot/FoundryVTT-Items",
+	"bugs": "https://github.com/boss-loot/FoundryVTT-Items",
+	"manifest": "https://boss-loot-free-pack.s3.eu-central-1.amazonaws.com/module.json",
+	"download": "https://boss-loot-free-pack.s3.eu-central-1.amazonaws.com/boss-loot-magic-items-free.zip"
+}
