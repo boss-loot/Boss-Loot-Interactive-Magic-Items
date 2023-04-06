@@ -1,5 +1,5 @@
 # Boss Loot Interactive Magic Items
-A set of fully automated magic items for Foundry VTT
+A set of fully automated magic items for Foundry VTT.
 It needs a few other modules to function properly.
 
 ### REQUIRED MODULES
