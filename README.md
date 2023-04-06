@@ -32,7 +32,7 @@ It needs a few other modules to function properly.
             	<img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/003-chainweaver-bracer/art-animated-for-chat-chainweaver-bracer.gif" width="272"/>
             </td>
             <td style="padding:10px">
-            	<img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/011-helm-of-the-charging-bull/art-animated-for-chat-helm-of-the-charging-bull.gif" width="300"/>
+            	<img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/011-helm-of-the-charging-bull/art-animated-for-chat-helm-of-the-charging-bull.gif" width="272"/>
             </td>
         </tr>
     </table>
