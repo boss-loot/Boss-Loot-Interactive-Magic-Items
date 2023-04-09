@@ -1,3 +1,7 @@
+[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://patreon.com/BossLoot)
+
+<p style='text-align: justify;'>
+
 # Boss Loot Interactive Magic Items
 A set of fully automated magic items for Foundry VTT.
 It needs a few other modules to function properly.
