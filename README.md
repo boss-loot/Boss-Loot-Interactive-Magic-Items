@@ -1,4 +1,5 @@
 [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://patreon.com/BossLoot)
+![Downloads](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 
 ## [Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
 
