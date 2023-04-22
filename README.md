@@ -21,7 +21,6 @@ It needs a few other modules to function properly.
 
 ### OPTIONAL MODULES
 - [Smalltime](https://github.com/unsoluble/smalltime)
-- [Active-Auras](https://github.com/kandashi/Active-Auras)
 - [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
 - [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders)
 
