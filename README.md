@@ -1,6 +1,9 @@
 [![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://patreon.com/BossLoot)
 
-## [Click for Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
+## Tutorial and Items Showcase
+<video width="320" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=o42me4ZslnE" type="video/mp4">
+</video>
 
 <p style='text-align: justify;'>
 
