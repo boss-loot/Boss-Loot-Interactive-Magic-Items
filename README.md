@@ -3,6 +3,8 @@
 
 ### If you enjoy using this module, we invite you to join our [Patreon](https://www.patreon.com/BossLoot), where you can access unique items added periodically.
 
+#### Additional support, questions and bug reports can be made on our Discord server: https://discord.gg/GXKeqV6S
+
 ## [Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
 
 <p style='text-align: justify;'>
@@ -12,7 +14,7 @@ A set of fully automated magic items for Foundry VTT.
 It needs a few other modules to function properly.
 
 ### REQUIRED MODULES
-- [Jules&Ben’s Animated Assets FREE](https://github.com/Jules-Bens-Aa/JB2A_DnD5e)
+- [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e)
 - [Midi-qol](https://gitlab.com/tposney/midi-qol)
 - [DAE](https://gitlab.com/tposney/dae)
 - [Times-up](https://gitlab.com/tposney/times-up)
