@@ -3,6 +3,8 @@
 
 ### If you enjoy using this module, we invite you to join our [Patreon](https://www.patreon.com/BossLoot), where you can access unique items added periodically.
 
+Join our discord server https://discord.gg/GXKeqV6S
+
 ## [Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
 
 <p style='text-align: justify;'>
