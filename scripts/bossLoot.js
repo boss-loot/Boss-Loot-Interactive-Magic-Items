@@ -1,7 +1,7 @@
 const orgName = "Boss Loot";
 const mandatoryModules = ["midi-qol", "dae", "times-up", "tokenmagic", "sequencer", "warpgate", "dfreds-convenient-effects", "effectmacro", "socketlib", "lib-wrapper"]; // "JB2A_DnD5e", "jb2a_patreon"
 const moduleMessage = [];
-const bossLootLogo = "modules/boss-loot-magic-items-advanced/artwork/000-logo/square-logo-animated.gif";
+const bossLootLogo = "modules/boss-loot-magic-items-free/artwork/000-logo/square-logo-animated.gif";
 const titleWarning = "Warning";
 
 async function createChatMessage(summary, msg) {
