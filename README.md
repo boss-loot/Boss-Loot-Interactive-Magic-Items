@@ -4,7 +4,7 @@
 
 ### If you enjoy using this module, we invite you to join our [Patreon](https://www.patreon.com/BossLoot), where you can access unique items added periodically.
 
-#### Additional support, questions and bug reports can be made on our Discord server: https://discord.gg/GXKeqV6S
+#### Additional support, questions and bug reports can be made on our Discord server: https://discord.gg/NerXyHBaHz
 
 ## [Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
 
