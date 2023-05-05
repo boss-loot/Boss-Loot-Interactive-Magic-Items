@@ -25,7 +25,6 @@ async function createChatMessage(summary, msg) {
   await ChatMessage.create(chatMessageWarning);
 }
 
-
 Hooks.once("ready", async function () {
   if (game.user.isGM) {
     console.log(`${orgName} | Module loaded`);
@@ -44,8 +43,8 @@ Hooks.once("ready", async function () {
     const jb2aPatreon = game.modules.get("jb2a_patreon");
 
     if (!jb2aDnd5e && !jb2aPatreon) {
-      moduleMessage.push(`At least one of the <strong>JB2A_DnD5e</strong> or <strong>jb2a_patreon</strong> modules must be installed and active for ${orgName} to work properly.`);
-    } else if ((jb2aDnd5e && !jb2aDnd5e.active) || (jb2aPatreon && !jb2aPatreon.active)) {
+      moduleMessage.push(`At least one of the <strong>JB2A_DnD5e</strong> or <strong>jb2a_patreon</strong> modules must be installed for ${orgName} to work properly.`);
+    } else if (!jb2aDnd5e?.active && !jb2aPatreon?.active) {
       moduleMessage.push(`At least one of the <strong>JB2A_DnD5e</strong> or <strong>jb2a_patreon</strong> modules must be active for ${orgName} to work properly.`);
     }
 
