@@ -2,17 +2,17 @@
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/total)
 
+# Boss Loot Interactive Magic Items
+A set of ready to use, fully automated magic items for Foundry VTT.<br>
+It needs a few other modules to function properly.
+---
 ### If you enjoy using this module, we invite you to join our [Patreon](https://www.patreon.com/BossLoot), where you can access unique items added periodically.
 
 #### Additional support, questions and bug reports can be made on our Discord server: https://discord.gg/NerXyHBaHz
-
+___
 ## [Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
 
 <p style='text-align: justify;'>
-
-# Boss Loot Interactive Magic Items
-A set of fully automated magic items for Foundry VTT.
-It needs a few other modules to function properly.
 
 ### REQUIRED MODULES
 | Module | Verified Version |
