@@ -34,7 +34,22 @@ ___
 - [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
 - [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders)
 
-### Magic Items
+# Usage
+
+
+![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Void%20Vortex.gif)
+
+
+![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Death%20Kiss%20Blade.gif)
+
+
+![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Helm%20of%20the%20Charging%20Bull.gif)
+
+
+![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Chainweaver%20Bracer.gif)
+
+
+# Magic Items in this pack
 <div id="image-table">
     <table>
 	    <tr>
