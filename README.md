@@ -37,16 +37,16 @@ ___
 # Usage
 
 
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Void%20Vortex.gif)](https://youtu.be/o42me4ZslnE)
+[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/void-vortex.gif)](https://youtu.be/o42me4ZslnE)
 
 
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Death%20Kiss%20Blade.gif)](https://youtu.be/o42me4ZslnE)
+[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/death-kiss-blade.gif)](https://youtu.be/o42me4ZslnE)
 
 
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Helm%20of%20the%20Charging%20Bull.gif)](https://youtu.be/o42me4ZslnE)
+[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/helm-of-the-charging-bull.gif)](https://youtu.be/o42me4ZslnE)
 
 
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/Chainweaver%20Bracer.gif)](https://youtu.be/o42me4ZslnE)
+[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/chainweaver-bracer.gif)](https://youtu.be/o42me4ZslnE)
 
 
 # Magic Items in this pack
