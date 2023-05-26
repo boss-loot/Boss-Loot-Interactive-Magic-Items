@@ -10,11 +10,18 @@ It needs a few other modules to function properly.
 
 #### Additional support, questions and bug reports can be made on our Discord server: https://discord.gg/NerXyHBaHz
 ___
-## [Tutorial and Items Showcase](https://www.youtube.com/watch?v=o42me4ZslnE)
+### Tutorial and Items Showcase
 
-<p style='text-align: justify;'>
+[![Tutorial and Items Showcase](http://img.youtube.com/vi/o42me4ZslnE/0.jpg)](https://www.youtube.com/watch?v=o42me4ZslnE)
 
-### REQUIRED MODULES
+___
+### System Requirements
+| Type | Name | Verified Version |
+| --------------- | --------------- | --------------- |
+| Application | Foundry Virtual Tabletop | Version 10 - Build 291 |
+| Game System | DnD5e - Fifth Edition System | 2.1.5 |
+
+### Required Modules
 | Module | Verified Version |
 | --------------- | --------------- |
 | [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.5.6 |
@@ -34,6 +41,7 @@ ___
 - [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
 - [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders)
 
+___
 # Usage
 
 
