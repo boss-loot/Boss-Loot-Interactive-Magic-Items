@@ -12,7 +12,7 @@ It needs a few other modules to function properly.
 ___
 ### Tutorial and Items Showcase
 
-[![Tutorial and Items Showcase](http://img.youtube.com/vi/o42me4ZslnE/0.jpg)]([https://www.youtube.com/watch?v=o42me4ZslnE](https://youtu.be/o42me4ZslnE?t=45))
+[![Tutorial and Items Showcase](http://img.youtube.com/vi/o42me4ZslnE/0.jpg)](https://www.youtube.com/watch?v=o42me4ZslnE)
 
 ___
 ### System Requirements
