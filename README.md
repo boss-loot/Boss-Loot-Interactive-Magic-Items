@@ -24,16 +24,16 @@ ___
 ### Required Modules
 | Module | Verified Version |
 | --------------- | --------------- |
-| [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.5.6 |
-| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 10.0.39 |
-| [DAE](https://gitlab.com/tposney/dae) | 10.0.27 |
-| [Times-up](https://gitlab.com/tposney/times-up) | 10.0.4 |
-| [Tokenmagic](https://github.com/Feu-Secret/Tokenmagic) | 0.6.2 |
-| [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.0.1 |
+| [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.5.7 |
+| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 10.0.44 |
+| [DAE](https://gitlab.com/tposney/dae) | 10.0.32 |
+| [Times-up](https://gitlab.com/tposney/times-up) | 10.0.6 |
+| [Tokenmagic](https://github.com/Feu-Secret/Tokenmagic) | 0.6.3.1 |
+| [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.0.8 |
 | [Dfreds Convenient Effects](https://github.com/DFreds/dfreds-convenient-effects) | 4.2.1 |
 | [Effect Macro](https://github.com/krbz999/effectmacro) | 10.0.15 |
 | [Socketlib](https://github.com/manuelVo/foundryvtt-socketlib) | 1.0.12 |
-| [Lib-wrapper](https://github.com/ruipin/fvtt-lib-wrapper) | 1.12.12.0 |
+| [Lib-wrapper](https://github.com/ruipin/fvtt-lib-wrapper) | 1.12.12.1 |
 | [WarpGate](https://github.com/trioderegion/warpgate) | 1.16.2 |
 
 ### OPTIONAL MODULES
