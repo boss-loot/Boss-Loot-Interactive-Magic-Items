@@ -19,7 +19,7 @@ ___
 | Type | Name | Verified Version |
 | --------------- | --------------- | --------------- |
 | Application | Foundry Virtual Tabletop | Version 10 - Build 291 |
-| Game System | DnD5e - Fifth Edition System | 2.1.5 |
+| Game System | DnD5e - Fifth Edition System | 2.2.1 |
 
 ### Required Modules
 | Module | Verified Version |
