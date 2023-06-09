@@ -8,7 +8,7 @@ It needs a few other modules to function properly.
 ---
 ### If you enjoy using this module, we invite you to join our [Patreon](https://www.patreon.com/BossLoot), where you can access unique items added periodically.
 
-#### Additional support, questions and bug reports can be made on our Discord server: https://discord.gg/NerXyHBaHz
+#### Additional support, questions and bug reports can be made on our [Discord](https://discord.gg/Cg8WEDbCua) server.
 ___
 ### Tutorial and Items Showcase
 
