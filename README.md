@@ -45,7 +45,6 @@ ___
 ### OPTIONAL MODULES
 - [Smalltime](https://github.com/unsoluble/smalltime)
 - [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
-- [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders)
 
 ___
 # Usage
