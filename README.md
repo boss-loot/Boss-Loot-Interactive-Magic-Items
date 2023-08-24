@@ -1,8 +1,12 @@
-[![Patreon](https://img.shields.io/badge/Pledge-Patreon-red)](https://patreon.com/BossLoot)
+# Boss Loot Interactive Magic Items
+
+![Foundry Version](https://img.shields.io/badge/Foundry-v11-informational)
+![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/boss-loot-magic-items-free&colorB=4aa94a)
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/boss-loot-magic-items-free.zip)
 
-# Boss Loot Interactive Magic Items
+[![Support on Patreon](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-patreon-icon.png)](https://www.patreon.com/BossLoot)
+
 A set of ready to use, fully automated magic items for Foundry VTT.<br>
 It needs a few other modules to function properly.
 ---
