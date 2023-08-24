@@ -25,22 +25,22 @@ ___
 | Type | Name | Verified Version |
 | --------------- | --------------- | --------------- |
 | Application | Foundry Virtual Tabletop | Version 10 - Build 291 |
-| Application | Foundry Virtual Tabletop | Version 11 - Build 305 |
-| Game System | DnD5e - Fifth Edition System | 2.2.2 |
+| Application | Foundry Virtual Tabletop | Version 11 - Build 307 |
+| Game System | DnD5e - Fifth Edition System | 2.3.0 |
 
 ### Required Modules
 | Module | Verified Version |
 | --------------- | --------------- |
 | [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.5.9 |
-| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.0.3 |
-| [DAE](https://gitlab.com/tposney/dae) | 10.0.37 |
-| [Times-up](https://gitlab.com/tposney/times-up) | 11.0.1 |
-| [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.1.1 |
-| [Dfreds Convenient Effects](https://github.com/DFreds/dfreds-convenient-effects) | 5.0.3 |
-| [Effect Macro](https://github.com/krbz999/effectmacro) | 11.0.0 |
+| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.0.13 |
+| [DAE](https://gitlab.com/tposney/dae) | 11.0.10 |
+| [Times-up](https://gitlab.com/tposney/times-up) | 11.0.3 |
+| [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.1.3 |
+| [Dfreds Convenient Effects](https://github.com/DFreds/dfreds-convenient-effects) | 5.1.0 |
+| [Effect Macro](https://github.com/krbz999/effectmacro) | 11.0.1 |
 | [Socketlib](https://github.com/manuelVo/foundryvtt-socketlib) | 1.0.13 |
-| [Lib-wrapper](https://github.com/ruipin/fvtt-lib-wrapper) | 1.12.12.1 |
-| [WarpGate](https://github.com/trioderegion/warpgate) | 1.17.2 |
+| [Lib-wrapper](https://github.com/ruipin/fvtt-lib-wrapper) | 1.12.13.0 |
+| [WarpGate](https://github.com/trioderegion/warpgate) | 1.18.1 |
 
 ### OPTIONAL MODULES
 - [Smalltime](https://github.com/unsoluble/smalltime)
