@@ -24,8 +24,7 @@ ___
 ### System Requirements
 | Type | Name | Verified Version |
 | --------------- | --------------- | --------------- |
-| Application | Foundry Virtual Tabletop | Version 10 - Build 291 |
-| Application | Foundry Virtual Tabletop | Version 11 - Build 307 |
+| Application | Foundry Virtual Tabletop | Version 11 - Build 308 |
 | Game System | DnD5e - Fifth Edition System | 2.3.0 |
 
 ### Required Modules
