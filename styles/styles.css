@@ -1,0 +1,21 @@
+#bossloot-checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+#bossloot-checkbox-label input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+#bossloot-notes {
+  line-height: normal;
+}
+
+#bossloot-module-version {
+  float: right;
+  padding-right: 20px;
+}
+
+#bossloot-warning-color {
+  color: #FF6969;
+}

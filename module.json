@@ -1,12 +1,13 @@
 {
 	"id": "boss-loot-magic-items-free",
 	"title": "Boss Loot Interactive Magic Items, Free Pack",
-	"description": "<p>A module of unique, fully automated and powerful items for D&D 5e, perfect for enhancing any adventurer's capabilities.</p><p>You can support our work on <a href=\"https://www.patreon.com/BossLoot\">Patreon</a> where you will find many more ready to use items!</p><p>Join our <a href=\"https://discord.gg/NerXyHBaHz\">Discord server</a> for any further questions.</p>",
-	"version": "0.1.3",
+	"description": "<p>A module of unique, fully automated and powerful items for D&D 5e, perfect for enhancing any adventurer's capabilities.</p><p>You can support our work on <a href=\"https://www.patreon.com/BossLoot\">Patreon</a> where you will find many more ready to use items!</p><p>Join our <a href=\"https://discord.gg/Cg8WEDbCua\">Discord server</a> for any further questions.</p>",
+	"version": "11.3.0",
+	"socket": true,
 	"compatibility": {
 		"minimum": "10",
-		"verified": "10.291",
-		"maximum": "10"
+		"verified": "11.315",
+		"maximum": "11.999"
 	},
 	"packs": [
 		{
@@ -15,7 +16,10 @@
 			"path": "packs/items.db",
 			"type": "Item",
 			"system": "dnd5e",
-			"private": true,
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			},
 			"flags": {}
 		},
 		{
@@ -24,7 +28,10 @@
 			"path": "packs/journal-entries.db",
 			"system": "dnd5e",
 			"type": "JournalEntry",
-			"private": true,
+			"ownership": {
+				"PLAYER": "NONE",
+				"ASSISTANT": "OWNER"
+			},
 			"flags": {}
 		}
 	],
@@ -35,7 +42,7 @@
 				"type": "system",
 				"manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
 				"compatibility": {
-					"verified": "2.1.2"
+					"minimum": "2.2.1"
 				}
 			}
 		],
@@ -77,12 +84,6 @@
 				"compatibility": {}
 			},
 			{
-				"id": "tokenmagic",
-				"type": "module",
-				"manifest": "https://raw.githubusercontent.com/Feu-Secret/Tokenmagic/master/tokenmagic/module.json",
-				"compatibility": {}
-			},
-			{
 				"id": "warpgate",
 				"type": "module",
 				"manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json",
@@ -103,27 +104,38 @@
 		]
 	},
 	"esmodules": [
-		"scripts/bossLoot.js"
+		"./scripts/bossLoot.js"
+	],
+	"styles": [
+		"./styles/styles.css"
+	],
+	"media": [
+		{
+			"type": "setup",
+			"url": "modules/boss-loot-magic-items-free/artwork/000-logo/setup-logo.jpg",
+			"loop": false,
+			"flags": {}
+		}
 	],
 	"authors": [
 		{
 			"name": "quantiq",
-			"url": "https://www.patreon.com/BossLoot/creators",
-			"discord": "quantiq#1657"
+			"url": "https://www.patreon.com/BossLoot",
+			"discord": "https://discord.gg/Cg8WEDbCua"
 		},
 		{
 			"name": "razvani",
-			"url": "https://www.patreon.com/BossLoot/creators",
-			"discord": "razvani#8335"
+			"url": "https://www.patreon.com/BossLoot",
+			"discord": "https://discord.gg/Cg8WEDbCua"
 		},
 		{
 			"name": "avatarart",
-			"url": "https://www.patreon.com/BossLoot/creators",
-			"discord": "Mates Laurentiu#6443"
+			"url": "https://www.patreon.com/BossLoot",
+			"discord": "https://discord.gg/Cg8WEDbCua"
 		}
 	],
 	"url": "https://github.com/boss-loot/FoundryVTT-Items",
 	"bugs": "https://github.com/boss-loot/FoundryVTT-Items",
 	"manifest": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/releases/latest/download/module.json",
-	"download": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/releases/download/0.1.3/boss-loot-magic-items-free.zip"
+	"download": "https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/releases/download/11.3.0/boss-loot-magic-items-free.zip"
 }

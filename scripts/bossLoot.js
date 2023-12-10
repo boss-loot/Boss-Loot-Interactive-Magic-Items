@@ -1,58 +1,70 @@
-const orgName = "Boss Loot";
-const mandatoryModules = ["midi-qol", "dae", "times-up", "tokenmagic", "sequencer", "warpgate", "dfreds-convenient-effects", "effectmacro", "socketlib", "lib-wrapper"]; // "JB2A_DnD5e", "jb2a_patreon"
-const moduleMessage = [];
-const bossLootLogo = "modules/boss-loot-magic-items-free/artwork/000-logo/square-logo-animated.gif";
-const titleWarning = "Warning";
+import { bossLootSettings, MODULE_NAME, SHORT_MODULE_NAME, NAMESPACE } from './settings.js';
+import { helperData as helpers } from './helperFunctions.js';
+import { macros } from './macros.js';
+import { items } from './items.js';
+import { runAsGM } from './runAsGM.js';
+import { log } from './boss-loot-log.js';
+export let socket;
 
-async function createChatMessage(summary, msg) {
-  const lastItem = msg.pop();
-  const listItems = msg.map((item) => `<p>${item}</p>`).join("");
-  const lastItemHtml = `<hr><h3>${lastItem}</h3>`;
-  const chatMessageWarning = {
-    content: `
-      <div class="dnd5e chat-card item-card midi-qol-item-card">
-        <header class="card-header flexrow">
-          <img src=${bossLootLogo} title="${titleWarning}" width="36" height="36" />
-          <h3 class="item-name" style="color: #FF6969">${titleWarning} - ${summary}</h3>
-        </header>
-        <div class="card-content">
-            ${listItems}${lastItemHtml}
-        </div>
-        <footer class="card-footer"><span>${orgName}</span></footer>
-      </div>`,
-    type: CONST.CHAT_MESSAGE_TYPES.OOC,
-  };
-  await ChatMessage.create(chatMessageWarning);
-}
+const mandatoryModules = [
+  'midi-qol',
+  'dae',
+  'times-up',
+  'sequencer',
+  'warpgate',
+  'dfreds-convenient-effects',
+  'effectmacro',
+  'socketlib',
+  'lib-wrapper',
+];
+const bossLootLogo = `modules/${MODULE_NAME}/artwork/000-logo/square-logo-animated.gif`;
+const titleWarning = 'Warning';
+const helperGifs = ['chainweaver-bracer.gif', 'death-kiss-blade.gif', 'helm-of-the-charging-bull.gif', 'void-vortex.gif'];
 
-Hooks.once("ready", async function () {
-  if (game.user.isGM) {
-    console.log(`${orgName} | Module loaded`);
+Hooks.once('init', async function () {
+  await bossLootSettings();
+});
 
-    mandatoryModules.forEach((module) => {
-      const moduleObj = game.modules.get(module);
-      if (moduleObj === undefined) {
-        moduleMessage.push(`Module <strong>${module}</strong> NOT installed!`);
-      } else if (moduleObj.active === false) {
-        moduleMessage.push(`Module <strong>${module}</strong> installed but NOT active!`);
-      }
-    });
+Hooks.once('socketlib.ready', async function () {
+  socket = socketlib.registerModule(MODULE_NAME);
+  socket.register('toggleTokenVisibility', runAsGM.toggleTokenVisibility);
+  socket.register('deleteToken', runAsGM.deleteToken);
+});
 
-    // Check for JB2A_DnD5e and jb2a_patreon
-    const jb2aDnd5e = game.modules.get("JB2A_DnD5e");
-    const jb2aPatreon = game.modules.get("jb2a_patreon");
+Hooks.once('ready', async function () {
+  if (!game.user.isGM) {
+    return;
+  }
+  const moduleVersion = game.modules.get(MODULE_NAME).version;
+  const storedVersion = game.settings.get(MODULE_NAME, 'moduleVersion');
 
-    if (!jb2aDnd5e && !jb2aPatreon) {
-      moduleMessage.push(`At least one of the <strong>JB2A_DnD5e</strong> or <strong>jb2a_patreon</strong> modules must be installed for ${orgName} to work properly.`);
-    } else if (!jb2aDnd5e?.active && !jb2aPatreon?.active) {
-      moduleMessage.push(`At least one of the <strong>JB2A_DnD5e</strong> or <strong>jb2a_patreon</strong> modules must be active for ${orgName} to work properly.`);
-    }
-
-    if (moduleMessage.length > 0) {
-      moduleMessage.push(
-        `Only after you <strong>install and activate</strong> above modules ${orgName} will work properly!<br><br>PS: This message won't appear if everything it's ok, so if you see it please try to install/activate missing modules then delete the chat messages and restart Foundry!`
-      );
-      await createChatMessage("Missing Modules", moduleMessage);
+  if (storedVersion !== moduleVersion) {
+    await game.settings.set(MODULE_NAME, 'moduleVersion', moduleVersion);
+    if (MODULE_NAME === 'boss-loot-magic-items-free') {
+      await game.settings.set(MODULE_NAME, 'showHelperPopup', true);
     }
   }
+
+  if (game.settings.get(MODULE_NAME, 'checkMandatoryModules') === true) {
+    await helpers.checkMandatoryModules(mandatoryModules, titleWarning, bossLootLogo);
+  }
+  if (game.settings.get(MODULE_NAME, 'showHelperPopup') === true) {
+    await helpers.launchHelperPopup(helperGifs);
+  }
+
+  if (game.modules.get('boss-loot-magic-items-advanced')?.active) {
+    console.warn(`${MODULE_NAME} | Boss Loot Advanced is active. Free version will not be initialized.`);
+    return; // Exit early since the advanced module is active
+  } else {
+    globalThis[NAMESPACE] = {
+      helpers,
+      macros,
+	  items,
+      log,
+      MODULE_NAME,
+      NAMESPACE,
+    };
+  }
+
+  log(`Module loaded!`, MODULE_NAME);
 });

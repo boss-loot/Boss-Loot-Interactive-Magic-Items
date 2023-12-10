@@ -1,0 +1,37 @@
+<form autocomplete="off">
+  <section class="content">
+    <div class="flexcol">
+      <div class="form-group">
+        <div id="settings-warning" class="settings-warning-body">
+          <p class="warning-attention">🔴 <strong>Attention Required</strong></p>
+          <ul class="warning-list">
+            <li>
+              <strong>Permanent Changes:</strong> Proceeding with this action will <strong>permanently overwrite</strong> your current Midi-QOL
+              settings.
+            </li>
+            <li>
+              <strong>For New Players:</strong> This feature is designed to streamline setup for new players, ensuring the least number of steps to
+              achieve optimal Midi-QOL settings for Boss Loot.
+            </li>
+            <li>
+              <strong>Support:</strong> If you're unsure about this process or what these settings entail, please seek support on our
+              <a href="https://discord.gg/Cg8WEDbCua" target="_blank">Discord channel</a> before making any changes.
+            </li>
+          </ul>
+          <!-- <h3>Settings that will be updated:</h3> -->
+          <br />
+          <div id="settings-differences">
+            {{#each settingsDifferences}}
+            <p>{{key}}: {{current}} -> {{new}}</p>
+            {{/each}}
+          </div>
+          <!-- <p class="warning-confirm">By clicking <strong>'Confirm'</strong>, you acknowledge that you have read and understood this warning!</p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="sheet-footer flexrow">
+    <button type="button" name="cancel" class="action-button"><i class="fa fa-times"></i> Cancel</button>
+    <button type="submit" name="submit" class="action-button"><i class="fa fa-check"></i> Confirm</button>
+  </footer>
+</form>
