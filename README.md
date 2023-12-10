@@ -1,7 +1,7 @@
 # Boss Loot Interactive Magic Items
 
-![Foundry Version](https://img.shields.io/badge/Foundry-v11.314-informational)
-![DnD5e Version](https://img.shields.io/badge/Dnd5e-v2.3.1-informational)
+![Foundry Version](https://img.shields.io/badge/Foundry-v11.315-informational)
+![DnD5e Version](https://img.shields.io/badge/Dnd5e-v2.4.1-informational)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/boss-loot-magic-items-free&colorB=4aa94a)
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/boss-loot-magic-items-free.zip)
