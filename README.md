@@ -33,8 +33,8 @@ ___
 | Module | Verified Version |
 | --------------- | --------------- |
 | [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.6.3 |
-| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.3.2 |
-| [DAE](https://gitlab.com/tposney/dae) | 11.1.5 |
+| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.3.17 |
+| [DAE](https://gitlab.com/tposney/dae) | 11.1.11 |
 | [Times-up](https://gitlab.com/tposney/times-up) | 11.1.1 |
 | [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.1.4 |
 | [Dfreds Convenient Effects](https://github.com/DFreds/dfreds-convenient-effects) | 6.0.0 |
