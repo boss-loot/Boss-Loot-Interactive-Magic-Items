@@ -41,7 +41,6 @@ ___
 | [Effect Macro](https://github.com/krbz999/effectmacro) | 11.2.2 |
 | [Socketlib](https://github.com/manuelVo/foundryvtt-socketlib) | 1.0.13 |
 | [Lib-wrapper](https://github.com/ruipin/fvtt-lib-wrapper) | 1.12.13.0 |
-| [WarpGate](https://github.com/trioderegion/warpgate) | 1.19.2 |
 
 ### OPTIONAL MODULES
 - [Smalltime](https://github.com/unsoluble/smalltime)
