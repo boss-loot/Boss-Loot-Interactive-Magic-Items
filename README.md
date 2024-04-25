@@ -1,7 +1,7 @@
 # Boss Loot Interactive Magic Items
 
 ![Foundry Version](https://img.shields.io/badge/Foundry-v11.315-informational)
-![DnD5e Version](https://img.shields.io/badge/Dnd5e-v3.0.4-informational)
+![DnD5e Version](https://img.shields.io/badge/Dnd5e-v3.1.2-informational)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/boss-loot-magic-items-free&colorB=4aa94a)
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/boss-loot-magic-items-free.zip)
@@ -27,15 +27,15 @@ ___
 | Type | Name | Verified Version |
 | --------------- | --------------- | --------------- |
 | Application | Foundry Virtual Tabletop | Version 11 - Build 315 |
-| Game System | DnD5e - Fifth Edition System | 3.0.4 |
+| Game System | DnD5e - Fifth Edition System | 3.1.2 |
 
 ### Required Modules
 | Module | Verified Version |
 | --------------- | --------------- |
-| [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.6.3 |
-| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.4.14 |
-| [DAE](https://gitlab.com/tposney/dae) | 11.3.15 |
-| [Times-up](https://gitlab.com/tposney/times-up) | 11.3.8 |
+| [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.6.6 |
+| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.4.23 |
+| [DAE](https://gitlab.com/tposney/dae) | 11.3.17 |
+| [Times-up](https://gitlab.com/tposney/times-up) | 11.3.9 |
 | [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.1.4 |
 | [Dfreds Convenient Effects](https://github.com/DFreds/dfreds-convenient-effects) | 6.0.3 |
 | [Effect Macro](https://github.com/krbz999/effectmacro) | 11.2.2 |
