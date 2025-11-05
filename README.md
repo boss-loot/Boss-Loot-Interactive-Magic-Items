@@ -1,7 +1,7 @@
-# Boss Loot Interactive Magic Items
+# Boss Loot Magic Items
 
-![Foundry Version](https://img.shields.io/badge/Foundry-v12-informational)
-![DnD5e Version](https://img.shields.io/badge/Dnd5e-v3.3-informational)
+![Foundry Version](https://img.shields.io/badge/Foundry-v13-informational)
+![DnD5e Version](https://img.shields.io/badge/Dnd5e-v5.1-informational)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/boss-loot-magic-items-free&colorB=4aa94a)
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/boss-loot-magic-items-free.zip)
@@ -11,55 +11,19 @@
     <img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-patreon-icon.jpg" alt="Support on Patreon" width="217" height="51">
 </a>
 
-A set of ready to use, fully automated magic items for Foundry VTT.<br>
-It needs a few other modules to function properly.
----
-### If you enjoy using this module, we invite you to join our [Patreon](https://www.patreon.com/BossLoot), where you can access unique items added periodically.
+## Overview
+A collection of unique magic items for Foundry VTT.
+All items are ready to use directly in Foundry, simply drag and drop them from the module's compendium.
 
-#### Additional support, questions and bug reports can be made on our [Discord](https://discord.gg/Cg8WEDbCua) server.
-___
-### Tutorial and Items Showcase
-
-[![Tutorial and Items Showcase](http://img.youtube.com/vi/o42me4ZslnE/0.jpg)](https://www.youtube.com/watch?v=o42me4ZslnE)
+## Optional BLFX Support
+If you also install the Boss Loot FX [BLFX](https://foundryvtt.com/packages/boss-loot-assets-premium) module, all items have canvas animations.
 
 ___
 ### System Requirements
-| Type | Name | Verified Version |
-| --------------- | --------------- | --------------- |
-| Application | Foundry Virtual Tabletop | Version 12 - Build 327 |
-| Game System | DnD5e - Fifth Edition System | 3.2.1 |
-
-### Required Modules
-| Module | Verified Version |
-| --------------- | --------------- |
-| [Jules&Ben’s Animated Assets free or Patreon](https://github.com/Jules-Bens-Aa/JB2A_DnD5e) | 0.6.8 |
-| [Midi-qol](https://gitlab.com/tposney/midi-qol) | 11.4.43 |
-| [DAE](https://gitlab.com/tposney/dae) | 11.3.39 |
-| [Times-up](https://gitlab.com/tposney/times-up) | 11.3.17 |
-| [Sequencer](https://github.com/fantasycalendar/FoundryVTT-Sequencer) | 3.2.11 |
-| [Effect Macro](https://github.com/krbz999/effectmacro) | 12.1.1 |
-| [Socketlib](https://github.com/manuelVo/foundryvtt-socketlib) | 1.1.0 |
-| [Lib-wrapper](https://github.com/ruipin/fvtt-lib-wrapper) | 1.12.14.0 |
-
-### OPTIONAL MODULES
-- [Smalltime](https://github.com/unsoluble/smalltime)
-- [Automated Animations](https://github.com/otigon/automated-jb2a-animations)
-- [Dfreds Convenient Effects](https://github.com/DFreds/dfreds-convenient-effects)
-
-___
-# Usage
-
-
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/void-vortex.gif)](https://youtu.be/o42me4ZslnE)
-
-
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/death-kiss-blade.gif)](https://youtu.be/o42me4ZslnE)
-
-
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/helm-of-the-charging-bull.gif)](https://youtu.be/o42me4ZslnE)
-
-
-[![In Action](https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/chainweaver-bracer.gif)](https://youtu.be/o42me4ZslnE)
+| Type | Name | Minimum Version | Recomended Version |
+| --------------- | --------------- | --------------- | --------------- |
+| Application | Foundry Virtual Tabletop | 12 | 13 |
+| Game System | DnD5e - Fifth Edition System | 4.4 | 5.1 |
 
 
 # Magic Items in this pack
