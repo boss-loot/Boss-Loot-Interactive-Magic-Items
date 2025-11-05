@@ -18,15 +18,13 @@ All items are ready to use directly in Foundry, simply drag and drop them from t
 ## Optional BLFX Support
 If you also install the Boss Loot FX [BLFX](https://foundryvtt.com/packages/boss-loot-assets-premium) module, all items have canvas animations.
 
-___
-### System Requirements
+## System Requirements
 | Type | Name | Minimum Version | Recomended Version |
 | --------------- | --------------- | --------------- | --------------- |
 | Application | Foundry Virtual Tabletop | 12 | 13 |
 | Game System | DnD5e - Fifth Edition System | 4.4 | 5.1 |
 
-
-# Magic Items in this pack
+## Magic Items in this pack
 <div id="image-table">
     <table>
 	    <tr>
