@@ -7,9 +7,17 @@
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/boss-loot-magic-items-free.zip)
 [![Boss Loot Discord Invite](https://img.shields.io/discord/1077169903297110076?color=%237289DA&label=chat&logo=discord&logoColor=white)](https://discord.gg/Cg8WEDbCua)
 
-<a href="https://www.patreon.com/BossLoot" target="_blank">
-    <img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-patreon-icon.jpg" alt="Support on Patreon" width="217" height="51">
-</a>
+<p align="center">
+  <a href="https://www.patreon.com/BossLoot" target="_blank">
+    <img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-patreon-icon.jpg?raw=true" alt="Support on Patreon" width="217" height="51">
+  </a>
+  <a href="https://www.youtube.com/playlist?list=PLsnf4jUWCNpAkKTIutS2Mdw_BcxtVN0n_&playnext=1&index=1" target="_blank">
+    <img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-youtube-icon.jpg?raw=true" alt="Follow on YouTube" width="217" height="51">
+  </a>
+  <a href="https://discord.gg/Cg8WEDbCua" target="_blank">
+    <img src="https://github.com/boss-loot/Boss-Loot-Interactive-Magic-Items/blob/main/artwork/000-logo/follow-us-on-discord-icon.png?raw=true" alt="Join us on Discord" width="217" height="51">
+  </a>
+</p>
 
 ## Overview
 A collection of unique magic items for Foundry VTT.
