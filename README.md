@@ -32,6 +32,9 @@ If you also install the Boss Loot FX [BLFX Premium](https://foundryvtt.com/packa
 | Application | Foundry Virtual Tabletop | 12 | 13 |
 | Game System | DnD5e - Fifth Edition System | 4.4 | 5.1 |
 
+## See it in action
+[![Watch the video](https://img.youtube.com/vi/gp8i1EzAXvk/0.jpg)](https://www.youtube.com/watch?v=gp8i1EzAXvk)
+
 ## Magic Items in this pack
 <div id="image-table">
     <table>
