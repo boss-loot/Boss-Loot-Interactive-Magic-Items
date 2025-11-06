@@ -24,7 +24,7 @@ A collection of unique magic items for Foundry VTT.
 All items are ready to use directly in Foundry, simply drag and drop them from the module's compendium.
 
 ## Optional BLFX Support
-If you also install the Boss Loot FX [BLFX](https://foundryvtt.com/packages/boss-loot-assets-premium) module, all items have canvas animations.
+If you also install the Boss Loot FX [BLFX Premium](https://foundryvtt.com/packages/boss-loot-assets-premium) module, all items have canvas animations.
 
 ## System Requirements
 | Type | Name | Minimum Version | Recomended Version |
