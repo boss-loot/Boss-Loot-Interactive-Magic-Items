@@ -1,7 +1,7 @@
 # Boss Loot Magic Items
 
-![Foundry Version](https://img.shields.io/badge/Foundry-v13-informational)
-![DnD5e Version](https://img.shields.io/badge/Dnd5e-v5.1-informational)
+![Foundry Version](https://img.shields.io/badge/Foundry-v14-informational)
+![DnD5e Version](https://img.shields.io/badge/Dnd5e-v5.3-informational)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https://forge-vtt.com/api/bazaar/package/boss-loot-magic-items-free&colorB=4aa94a)
 ![Downloads Total](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/total)
 ![Downloads Latest Version](https://img.shields.io/github/downloads/boss-loot/Boss-Loot-Interactive-Magic-Items/latest/boss-loot-magic-items-free.zip)
@@ -29,8 +29,8 @@ If you also install the Boss Loot FX [BLFX Premium](https://foundryvtt.com/packa
 ## System Requirements
 | Type | Name | Minimum Version | Recomended Version |
 | --------------- | --------------- | --------------- | --------------- |
-| Application | Foundry Virtual Tabletop | 12 | 13 |
-| Game System | DnD5e - Fifth Edition System | 4.4 | 5.1 |
+| Application | Foundry Virtual Tabletop | 12 | 14 |
+| Game System | DnD5e - Fifth Edition System | 4.4 | 5.3 |
 
 ## See it in action
 [![Watch the video](https://img.youtube.com/vi/gp8i1EzAXvk/0.jpg)](https://www.youtube.com/watch?v=gp8i1EzAXvk)
